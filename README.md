@@ -3,7 +3,7 @@
 A modern, multi-tenant task manager with JWT auth, RBAC (Owner/Admin/Member), strict tenant isolation, and audit logging.
 
 ## Stack
-- **Frontend**: React + Vite + Tailwind CSS (built in Lovable)
+- **Frontend**: React + Vite + Tailwind CSS 
 - **Backend**: Node.js + Express
 - **Database**: PostgreSQL 16
 - **Auth**: JWT (token contains `userId`, `organizationId`, `role`)
@@ -30,7 +30,7 @@ A modern, multi-tenant task manager with JWT auth, RBAC (Owner/Admin/Member), st
 
 ## Quick start (Docker)
 
-1. Place your Lovable React export into `taskflow-frontend/` (must contain `package.json`, `vite.config.ts`, `src/`, `index.html`).
+1. Place your React export into `taskflow-frontend/` (must contain `package.json`, `vite.config.ts`, `src/`, `index.html`).
 2. From the project root:
    ```bash
    docker compose up --build
